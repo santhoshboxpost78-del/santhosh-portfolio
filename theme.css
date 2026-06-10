@@ -1,0 +1,29 @@
+﻿:root {
+  --bg: #050B18;
+  --bg-soft: #09182E;
+  --surface: rgba(12, 18, 36, 0.88);
+  --surface-soft: rgba(18, 28, 52, 0.82);
+  --text: #F8F2E7;
+  --text-muted: rgba(248, 242, 231, 0.72);
+  --accent: #E0B950;
+  --accent-soft: #F2D78F;
+  --accent-strong: #B58B2F;
+  --success: #4ADE80;
+  --border: rgba(224, 185, 91, 0.14);
+  --radius: 1.8rem;
+}
+
+.glass-panel {
+  background: rgba(12, 18, 36, 0.82);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(22px);
+}
+
+.glow-ring {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  border: 1px solid rgba(224, 185, 91, 0.15);
+  box-shadow: 0 0 80px rgba(224, 185, 91, 0.22);
+}
